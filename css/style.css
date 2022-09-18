@@ -1,0 +1,185 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face{
+	font-family: "MONIQA";
+	src: url("../fonts/MONIQA-Medium-Italic-Heading.woff2") format("woff2") url("../fonts/MONIQA-Medium-Italic-Heading.woff") format("woff");
+	font-display: swap;
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Inter Hewn";
+	src: url("../fonts/Inter-Bold-Hewn.woff2") format("woff2") url("../fonts/Inter-Bold-Hewn.woff") format("woff");
+	font-display: swap;
+	font-weight: 700;
+	font-style: normal;
+}
+
+body{
+	font-family: "Bitter", serif;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+h1,
+h2{
+	font-family: "Inter Hewn";
+	font-weight: 700;
+	line-height: 1.5;
+
+}
+
+h1{
+	font-size: 48px;
+	text-align: center;
+	color: #2c2c2c;
+	padding: 20px 0 25px;
+	text-shadow: 1px 1px;
+	letter-spacing: 2px;
+}
+
+h2{
+	font-size: 26px;
+}
+
+a{
+	color: #4169E1;
+}
+
+.container{
+	width: 900px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 50px;
+}
+
+.header,
+.about,
+.in-search-of-himself,
+.apple-period,
+.next-station,
+.pixar,
+.inventions,
+.interesting-facts,
+.rip-steve,
+.famous-sayings{
+	margin-bottom: 25px;
+}
+
+.title{
+	padding-bottom: 20px;
+}
+
+.blockquote{
+	text-align: right;
+	text-shadow: 1px 1px;
+	color: #8B0000;
+	white-space: nowrap;
+}
+
+.about-title,
+.famous-sayings-text{
+	font-family: "MONIQA";
+	font-weight: 500;
+	font-style: italic;
+}
+
+.about-text p{
+	text-align: justify;
+	padding-bottom: 10px;
+}
+
+.about-text a{
+	text-decoration: overline;
+}
+
+.in-search-of-himself-text p,
+.apple-period-text p,
+.next-station-text p,
+.pixar-text p,
+.interesting-facts-text p,
+.rip-steve-text p,
+.famous-sayings-text p{
+	padding-bottom: 10px;
+}
+
+img.in-search-of-himself-img,
+img.next-station-img{
+	padding-bottom: 0;
+}
+
+.apple-period-text a{
+	text-decoration: underline;
+}
+
+.next-computer-text ~ p{
+	text-transform: lowercase;
+}
+
+.pixar-text p{
+	text-decoration: line-through;
+}
+
+.inventions-title{
+	text-transform: uppercase;
+}
+
+.inventions-text{
+	text-indent: 20px;
+}
+
+.inventions-text div{
+	margin-bottom: 10px;
+}
+
+div.ipad{
+	margin-bottom: 0;
+}
+
+.inventions-text span{
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.rip-steve-title + p{
+	text-transform: capitalize;
+}
+
+.rip-steve-img img{
+	padding-top: 0;
+}
+
+.indents-img,
+img.rip-steve-img-indents{
+	padding: 15px 0;
+}
+
+p.caption-photo{
+	font-style: italic;
+	color: #696969;
+	text-align: center;
+	font-size: 16px;
+}
+
+
+p.reset-indents{
+	padding-bottom: 0;
+}
+
+.famous-sayings-text p{
+	word-spacing: 1px;
+}
+
+.footer-text a{
+	text-decoration: underline;
+}
+
+.footer{
+	margin-bottom: 15px;
+}
+
+.footer-text{
+	padding-bottom: 10px;
+}
